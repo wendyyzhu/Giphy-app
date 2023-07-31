@@ -2,7 +2,7 @@ import "./Search.css";
 import { useState, useEffect } from "react";
 
 export default function Search() {
-  const api_key = process.env.REACT_APP_API_KEY;
+  let api_key = process.env.REACT_APP_NOT_SECRET_CODE
   const [search, setSearch] = useState("");
   const [result, setResult] = useState(1);
   const [data, setData] = useState([]);
