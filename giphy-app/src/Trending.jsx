@@ -23,7 +23,7 @@ export default function Trending(){
 
   return (
     <div className="trending-container">
-      <h2>Trendy Gif</h2>
+      <h2>TRENDING</h2>
       <div className="limit-controls">
         <label>Choose the number of Trendy GIFs:</label>
         <input

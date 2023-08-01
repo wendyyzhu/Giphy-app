@@ -1,10 +1,14 @@
 .random-giphs {
-    background-color: black;
+    background-color: lavender;
 }
 
 .random-giphs h2 {
     color: white;
-    margin-bottom: 10px;
+    background-color: #ed95d9;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .random-giphs img {
@@ -21,13 +25,13 @@
 }
 
 .random-giphs .random-btn {
-    margin-bottom: 10px;
-    border: 1px solid white;
-    background-color: black;
-    font-size: large;
-    padding: 10px;
-    color: white;
-
+    color: #ed95d9;
+    background-color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px lightgray;
+    margin-bottom: 15px;
 }
 
 .random-giphs .random-btn:hover {

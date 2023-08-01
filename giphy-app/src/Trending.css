@@ -1,10 +1,15 @@
 .trending-container {
-  padding: 20px;
+  background-color: lavender;
+  height: 100vh;
 }
 
-h2 {
+.trending-container h2 {
+  color: white;
+  background-color: #ed95d9;
   text-align: center;
-  color: #333;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .limit-controls {
@@ -32,8 +37,9 @@ h2 {
 }
 
 .gif-container {
+  width: 70%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin: 0 auto;
   gap: 10px;
 }
 
@@ -79,3 +85,4 @@ h2 {
   color: #666;
   font-size: 14px;
 }
+

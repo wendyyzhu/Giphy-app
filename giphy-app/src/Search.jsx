@@ -33,7 +33,7 @@ export default function Search() {
   return (
     
     <div className="search-wrapper">
-      <h2>find a gif </h2>
+      <h2>FIND A GIF</h2>
       <form className="search-form">
         <label>
           <input
@@ -61,10 +61,10 @@ export default function Search() {
         <br />
 
         <button className="search-button" onClick={handleSubmit}  type="submit">
-          find 🔍
+          FIND 🔍
         </button>
       </form>
-<div className="display-search-gif">
+      <div className="display-search-gif">
       {data.map((gif) => (
         <img
         key={gif.id}

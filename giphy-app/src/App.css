@@ -5,7 +5,17 @@
   text-align: center;
 }
 
+.App h1 {
+  font-size: 60px;
+  color: #faedcd;
+  background-color: #ffaa00;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
 .grid-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+

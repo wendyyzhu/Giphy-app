@@ -6,7 +6,7 @@ import Trending from './Trending';
 function App() {
   return (
     <div className="App">
-      <h1>One Stop Gif Shop</h1>
+      <h1>ONE STOP GIF SHOP</h1>
       <div className='grid-wrapper'>
         <Random />
         <Search />
